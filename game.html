@@ -1,0 +1,38 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>ROCK-PAPER-SCISSOR</title>
+     <link rel="stylesheet" href="game.css">
+ </head>
+ <body>
+     <p><span id="youscore">0</span>-<span id="compscore">0</span></p>
+ 
+     <div id="game-container">
+         <div id="you">
+             <h2>You</h2>
+             <img id="optionyouselected" src="" alt="">
+             <div id="optionscontainer">
+             <img class="options" src="assets\rock-logo.png" alt="">
+             <img class="options" src="assets\paper-logo.png" alt="">
+             <img class="options" src="assets\scissors-logo.png" alt="">
+             </div>
+         </div>
+         <div>
+             <img id="vs" src="assets\vs.png" alt="">
+         </div>
+         <div id="comp">
+             <h2>Comp</h2>
+             <img id="optioncompselected" src="" alt="">
+         </div>
+     </div>
+     <div id="gameover-div">
+     <div id="gameover">
+         <h1 id="winstatement" >You won the game </h1>
+         <button id="playagain-btn">Play Again</button>
+     </div>
+     </div>
+     <script src="./game.js"></script>
+ </body>
+ </html>

@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body{
+    background-image: url("assets/bg.png");
+    font-family: 'Poppins', sans-serif;
+}
+
+h2{
+    margin: 0;
+    padding: 0;
+}
+
+p{
+    color: white;
+    text-align: center;
+    font-size: 100px;
+    margin: 0;
+}
+
+#game-container{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    text-align: center;    
+}
+
+#vs{
+    height: 500px;
+}
+
+#you,#comp{
+    border: 1px solid #ffc434;
+    height: 400px;
+    width: 400px;
+    padding: 20px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+  
+#gameover-div{
+    display: none;
+}
+
+#optionscontainer{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+}
+
+button{
+    background-color: #ffc434;
+    font-size: 25px;
+    color: white;
+    border: 1px white solid;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.options{
+    cursor: pointer;
+    height: 80px;
+}
+
+#winstatement{
+    color: white;
+    text-align: center;
+}
+
+
+#gameover{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
